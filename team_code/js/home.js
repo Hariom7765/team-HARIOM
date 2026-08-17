@@ -1,5 +1,10 @@
 //COMMIT 1 START: 
-
+/* === COMMIT 1: START === */
+// Page load logging & init
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("🚀 Home page script loaded successfully!");
+});
+/* === COMMIT 1: END === */
 //COMMIT 1 END: 
 
 
