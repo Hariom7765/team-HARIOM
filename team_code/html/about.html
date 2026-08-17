@@ -27,7 +27,58 @@
   <main>
 
     <!-- === COMMIT 1: START === -->
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Hub - Team Showcase Solution</title>
+  <link rel="stylesheet" href="../Css/shared.css">
+  <link rel="stylesheet" href="../Css/about.css">
+</head>
+
+<body>
+  <!-- Shared Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="home.html" class="logo">
+        <span>Team Portfolio</span>
+        <span class="logo-badge">PRO</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="home.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link active">Team Showcase</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- =========================================================================
+         COMMIT 1: TEAM SHOWCASE HEADER
+         -------------------------------------------------------------------------
+         Copy the HTML block below into your `about.html` file in teams/team-<name>/
+         Then commit: git commit -m "feat: add team showcase header"
+         ========================================================================= -->
+    <!-- === COMMIT 1: START === -->
+    <section class="about-hero">
+      <div class="container text-center">
+        <span class="section-tag">Meet The Minds</span>
+        <h1 class="section-title">Our Brilliant <span class="gradient-text">Developers</span></h1>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          We are a team of 3 developers building modern web solutions together. Filter by domain or explore our profiles
+          below.
+        </p>
+
+        <!-- Filter Controls -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All Members</button>
+          <button class="filter-btn" data-filter="lead">Team Leader</button>
+          <button class="filter-btn" data-filter="dev">Developers</button>
+        </div>
+      </div>
+    </section>
 
     <!-- === COMMIT 1: END === -->
 
